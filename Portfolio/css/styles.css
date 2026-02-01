@@ -1,0 +1,657 @@
+* { 
+    box-sizing: border-box; 
+}
+
+/* Body styles */
+body{
+    background-color: #FFFFFF; 
+    color: #0A0A0A;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo styles */
+header {
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+/* Nav styles */
+.navcontent{
+    box-shadow: 1px 1px 5px #616161;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    font-size: 80%;
+    background-color: #EAF6FF;
+    border-top: 1px solid #D0E3F7;   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+nav li {
+    border-bottom: 1px solid #D0E3F7;
+    padding: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover {
+    color: #0079FF;
+}
+
+nav li.active a {
+    color: #0079FF !important;
+}
+
+/* Flow section */
+.flow {
+    text-align: center;
+}
+
+.span:hover {
+    color: #0079FF;
+}
+
+.flow ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.flow li {
+    display: inline;
+    margin: 5px;
+}
+
+.flow a{
+    text-decoration: none;
+}
+
+.flow img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    box-shadow: 0px 4px 20px #15151580;
+}
+
+.mypic img{
+    border: 4px solid rgba(255, 255, 255, 0.2);
+}
+
+.flow ul li img {
+    width: 30px;
+    height: auto;
+    transition: 0.3s ease;
+}
+
+.flow ul li img:hover {
+    transform: scale(1.3);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #EAF6FF;
+    padding: 10px;
+    font-weight: bold;
+    color: #616161;
+    box-shadow: -1px -1px 5px #616161;
+}
+footer a {
+    color: #0079FF;
+    text-decoration: none;
+}
+
+/* Button */
+#btn {
+    background-color: #0079FF;
+    color: #ffffff;
+    padding: 10px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    transition: 0.3s ease-in;
+}
+
+#btn:hover{
+    box-shadow: 5px 5px 10px #71aede;
+}
+
+/* Projects page design */
+.projectsSection{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projectCard{
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #EAF6FF;
+    box-shadow: 5px 5px 10px #71aede;
+    border-radius: 10px;
+}
+
+.imgProject{
+    width: 60%;
+    border-radius: 10px;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #0079FF;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s ease-in;
+}
+
+.btn:hover{
+    box-shadow: 5px 5px 10px #71aede;
+}
+
+/* About Page Design */
+.aboutmeSection{
+    text-align: center;
+}
+
+.aboutMeCard{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #EAF6FF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #71aede;
+}
+
+.aboutMeCard img{
+    width: 60%;
+    border-radius: 10px;
+}
+
+.skillCard, .educationCard{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #EAF6FF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px #71aede;
+}
+
+.skillCard ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Contact Me Design */
+
+.contactSection{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contactGrid{
+    font-size: 0.9em;
+}
+
+.contactCard{
+    margin-top: 40px;
+}
+
+.contactForm{
+    margin-bottom: 40px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.inputForm{
+    border-radius: 10px;
+    height: 35px;
+}
+
+form{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.btn{
+    background-color: #0079FF;
+    color: #ffffff;
+    padding: 10px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    transition: 0.3s ease-in;
+    align-self: center;
+    border: none;
+}
+
+.btn:hover{
+    box-shadow: 5px 5px 10px #71aede;
+}
+
+.contactCard img{
+    width: 30px;
+    border-radius: 50%;
+    height: auto;
+    transition: 0.3s ease-in;
+    box-shadow: 0px 4px 20px #15151580;
+}
+
+.contactCard img:hover{
+    transform: scale(1.3);
+}
+
+.contactCard ul{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.contactCard li{
+    display: inline;
+    margin: 5px;
+}
+
+.contactCard a{
+    text-decoration: none;
+}
+
+
+
+/* Tablet view */
+@media(min-width: 600px) {
+
+    body {
+        height: 100%;
+        background-image: linear-gradient(rgba(0, 121, 255, 0.08),rgba(161, 161, 161, 0.95)), url("../images/8655.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    header img {
+        width: 60px;
+    }
+
+    .navcontent {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #EAF6FF;
+    }
+
+    nav{
+        border-top: none;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 13px;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        border: none;
+        padding: 0;
+    }
+
+    main{
+        flex: 1;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .flow {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .flow-text {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 1.3em;
+    }
+
+    .flow-text p, .flow-text h3 {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .flow-text ul{
+        margin-top: 5px;
+        margin-left: 5px;
+        padding: 0;
+    }
+
+    .flow img {
+        width: 250px;
+    }
+
+    .mypic img{
+        width: 120%;
+    }
+
+    .flow ul {
+        padding: 0;
+        text-align: left;
+    }
+
+    .flow li {
+        padding: 0;
+        margin: 5px;
+    }
+
+    /* Projects Page Design */
+    .projectPage{
+        background-image: none !important;
+        background-color: #FFFFFF !important;
+    }
+
+    .projectsSection{
+        width: 70%;
+    }
+
+    .projectsGrid{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 10px;
+    }
+
+    .projectCard{
+        width: 90%;
+        transition: 0.3s ease-in;
+    }
+
+    .projectCard:hover{
+        transform: scale(1.2);
+    }
+
+    .projectCard img{
+        transition: 0.3s ease-in;
+    }
+
+    .projectCard img:hover{
+        transform: scale(1.2);
+    }
+
+    /* About Me Section */
+    .aboutPage{
+        background-image: none !important;
+        background-color: #FFFFFF !important;
+    }
+
+    .aboutmeSection{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .aboutMeCard img{
+        width: 80%;
+        justify-self: center;
+        border-radius: 10px;
+    }
+    .aboutMeCard{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: center;
+        text-align: justify;
+        background-color: #EAF6FF;
+        box-shadow: 5px 5px 10px #71aede;
+        border-radius: 10px;
+        padding: 10px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .aboutMeCard p{
+        line-height: 1.6;
+        font-size: 1.05em;
+    }
+
+
+    .aboutEducationCard{
+        margin-top: 50px;
+    }
+
+
+    .aboutSkillCard{
+        margin-top: 50px;
+    }
+
+    .skillCard, .educationCard{
+        padding: 1px;
+        transition: 0.3s ease-in;
+    }
+
+    .educationCard:hover{
+        transform: scale(1.2);
+    }
+
+    .skillCard:hover{
+        transform: scale(1.2);
+    }
+
+    /* Contact Me Page Design */
+
+    .contactSection{
+        font-size: 1.2em;
+    }
+
+    .contactGrid{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 40px;
+        align-items: center;
+        text-align: justify;
+        width: 100%;
+    }
+
+    .contactCard{
+        margin-top: 0;
+        padding: 5px;
+    }
+
+    .contactCard ul{
+        padding: 0;
+    }
+
+    .contactCard li{
+        margin: 0;
+        padding: 0;
+        margin-right: 10px;
+    }
+    .contactCard img{
+        width: 35px;
+    }
+
+    .contactForm{
+        margin-bottom: 0;
+    }
+
+    .inputForm{
+        background-color: #EAF6FF;
+        height: 40px;
+    }
+
+}
+
+/* Desktop view */
+@media(min-width: 1024px) {
+
+    body {
+        height: 100%;
+        background-image: linear-gradient(rgba(0, 121, 255, 0.08),rgba(161, 161, 161, 0.95)), url("../images/8655.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    nav{
+        width: 80%;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        gap: 3%;
+    }
+
+    nav ul li{
+        width: 100%;
+    }
+
+    main{
+        margin-bottom: 0;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .flow {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    .mypic img{
+        width: 120%;
+    }
+
+    .flow-text{
+        font-size: 1.6em;
+    }
+
+    .flow-text ul li{
+        gap: 2px;
+    }
+
+    .flow-text ul li img{
+        width: 40px;
+    }
+
+    /* Projects Page Design */
+    .projectsSection{
+        width: 80%;
+    }
+
+    .projectsGrid{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .projectCard{
+        width: 80%;
+    }
+
+    /* About Me Page Design */
+    .aboutMeCard{
+        background-color: #EAF6FF;
+        box-shadow: none;
+        display: grid;
+        grid-template-columns: 1.3fr 1fr;
+        padding: 20px;
+        box-shadow: 5px 5px 10px #71aede;
+    }
+
+    .aboutMeCard img{
+        width: 50%;
+        transition:  0.3s ease-in;
+    }
+
+    .aboutMeCard img:hover{
+        transform: scale(1.2);
+        box-shadow: 5px 5px 10px #71aede;
+    }
+
+    .eduSkillGrid{
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+    }
+
+    .educationCard{
+        transition: 0.3s ease-in;
+    }
+
+    .educationCard:hover{
+        transform: scale(1.2);
+    }
+
+    .skillCard{
+        transition: 0.3s ease-in;
+    }
+
+    .skillCard:hover{
+        transform: scale(1.2);
+    }
+
+    .aboutMeCard, .educationCard, .skillCard{
+        width: 70%;
+    }
+
+    /* Contact Me Design */
+    .contactGrid{
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        gap: 40px;
+        padding: 10px;
+        align-items: center;
+    }
+}
