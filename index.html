@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Saurav Singh Portfolio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script/app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="navcontent">
+        <header>
+            <a href="index.html">
+                <img src="images/logo.svg" alt="Saurav's Portfolio Logo">
+            </a>
+        </header>
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">HOME</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="docs/Resume_2026.pdf" target="_blank">RESUME</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="contactme.html">CONTACT ME</a></li>
+                <li><a href="contactme.html" id="btn">Hire Me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+
+        <div class="flow">
+            <section class="flow-text">
+                <p>Hey <i>there,</i></p>
+                <h3>I'm <span class="span">Saurav Singh</span></h3>
+                <p>Software Developer</p>
+                <p>Student at DCCC</p>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/saurav-singh143/" target="_blank">
+                            <img src="images/linkedin.png" alt="linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:sauravpreet143@gmail.com">
+                            <img src="images/mail.png" alt="mail">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/SideWays143" target="_blank">
+                            <img src="images/github.png" alt="github">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <div class="mypic">
+                <img src="images/Mypic.jpg" alt="Saurav's face picture">
+            </div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        Copyright &copy;
+        <!-- Added JavaScript to get the current year for my copyright -->
+        <script>
+            var myDate = new Date()
+            var year = myDate.getFullYear()
+            document.write(" " + year)
+        </script>
+        | Saurav Singh | Professional Portfolio<br>
+        <a href="mailto:sauravpreet143@gmail.com">sauravpreet143@gmail.com</a>
+    </footer>
+</body>
+</html>

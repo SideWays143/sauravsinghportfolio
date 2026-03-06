@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Saurav Singh Portfolio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script/app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="navcontent">
+        <header>
+            <a href="index.html">
+                <img src="images/logo.svg" alt="Saurav's Portfolio Logo">
+            </a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="docs/Resume_2026.pdf" target="_blank">RESUME</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li class="active"><a href="contactme.html">CONTACT ME</a></li>
+                <li><a href="contactme.html" id="btn">Hire Me</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+
+    <main>
+
+        <section class="contactSection">
+            <div class="contactGrid">
+                <div class="contactCard">
+                    <h3>Get In Touch</h3>
+                    <p>I'd like to hear from you!</p>
+                    <p>If you have any inquiries or just want to say hi, please use the contact form! or reach out to me on my socials below.</p>
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/saurav-singh143/" target="_blank">
+                                <img src="images/linkedin.png" alt="linkedin">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:sauravpreet143@gmail.com">
+                                <img src="images/mail.png" alt="mail">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/SideWays143" target="_blank">
+                                <img src="images/github.png" alt="github">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contactCard">
+                    <form class="contactForm" action="https://formsubmit.co/sauravpreet143@gmail.com" method="POST" target="_blank">
+                        <input type="hidden" name="_captcha" value="false">
+                        <label for="myFName">*First Name: </label>
+                        <input class="inputForm" type="text" id="myFName" name="firstname" required="required">
+                        <label for="myLName">*Last Name: </label>
+                        <input class="inputForm" type="text" id="myLName" name="lastname" required="required">
+                        <label for="myEmail">*E-mail: </label>
+                        <input class="inputForm" type="email" id="myEmail" name="email" required="required">
+                        <label for="myPhone">*Phone: </label>
+                        <input class="inputForm" type="tel" id="myPhone" name="phone" required pattern="\d{10}">
+                        <label for="myComments">*Comments: </label>
+                        <textarea class="inputForm" name="message" id="myComments" rows="2" cols="30"></textarea>
+                        <div class="alert"></div>
+                        <input class="btn" type="submit" value="Submit" id="submitBtn">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!--Footer-->
+    <footer>
+        Copyright &copy;
+        <!-- Added JavaScript to get the current year for my copyright -->
+        <script>
+            var myDate = new Date()
+            var year = myDate.getFullYear()
+            document.write(" " + year)
+        </script>
+        | Saurav Singh | Professional Portfolio<br>
+        <a href="mailto:sauravpreet143@gmail.com">sauravpreet143@gmail.com</a>
+    </footer>
+    
+</body>
+</html>
